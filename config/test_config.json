@@ -1,0 +1,34 @@
+{
+  "credentials": {
+    "username": "your_test_username",
+    "password": "your_test_password"
+  },
+  "targeting": {
+    "target_hashtags": [
+      "test"
+    ],
+    "blacklist_users": []
+  },
+  "limits": {
+    "daily_follows": 2,
+    "daily_unfollows": 1,
+    "daily_likes": 5,
+    "daily_comments": 1,
+    "hourly_actions": 3
+  },
+  "delays": {
+    "min_delay": 60,
+    "max_delay": 120,
+    "action_delay": 10
+  },
+  "engagement": {
+    "like_probability": 0.5,
+    "comment_probability": 0.1,
+    "follow_probability": 0.2
+  },
+  "safety": {
+    "headless_mode": false,
+    "use_proxy": false,
+    "user_agent_rotation": true
+  }
+}

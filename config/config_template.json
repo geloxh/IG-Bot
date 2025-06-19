@@ -1,0 +1,50 @@
+{
+    "credentials": {
+        "username": "your_instagram_username",
+        "password": "your_instagram_password"
+    },
+    "targeting": {
+        "target_hashtags": ["photography", "travel", "food", "fitness"],
+        "target_locations": ["New York", "Los Angeles", "London"],
+        "blacklist_users": ["spam_account1", "spam_account2"]
+    },
+    "limits": {
+        "daily_follows": 50,
+        "daily_unfollows": 30,
+        "daily_likes": 100,
+        "daily_comments": 20,
+        "hourly_actions": 15
+    },
+    "delays": {
+        "min_delay": 30,
+        "max_delay": 120,
+        "action_delay": 5
+    },
+    "engagement": {
+        "like_probability": 0.8,
+        "comment_probability": 0.3,
+        "follow_probability": 0.4,
+        "unfollow_after_days": 3
+    },
+    "comments": {
+        "enabled": true,
+        "templates": [
+            "Great post! 👍",
+            "Amazing content! ✨",
+            "Love this! ❤️",
+            "Incredible! 🔥",
+            "Beautiful! 😍"
+        ]
+    },
+    "safety": {
+        "headless_mode": true,
+        "use_proxy": false,
+        "proxy_list": [],
+        "user_agent_rotation": true
+    },
+    "analytics": {
+        "track_engagement": true,
+        "save_logs": true,
+        "generate_reports": true
+    }
+}

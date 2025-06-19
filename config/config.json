@@ -1,0 +1,49 @@
+{
+    "credentials": {
+        "username": "your_instagram_username",
+        "password": "your_instagram_password"
+    },
+    "targeting": {
+        "target_hashtags": ["photography", "travel", "food"],
+        "target_locations": [],
+        "blacklist_users": []
+    },
+    "limits": {
+        "daily_follows": 30,
+        "daily_unfollows": 20,
+        "daily_likes": 80,
+        "daily_comments": 15,
+        "hourly_actions": 12
+    },
+    "delays": {
+        "min_delay": 45,
+        "max_delay": 90,
+        "action_delay": 3
+    },
+    "engagement": {
+        "like_probability": 0.75,
+        "comment_probability": 0.25,
+        "follow_probability": 0.35,
+        "unfollow_after_days": 3
+    },
+    "comments": {
+        "enabled": true,
+        "templates": [
+            "Great post! 👍",
+            "Amazing! ✨",
+            "Love this! ❤️",
+            "Beautiful! 😍"
+        ]
+    },
+    "safety": {
+        "headless_mode": true,
+        "use_proxy": false,
+        "proxy_list": [],
+        "user_agent_rotation": true
+    },
+    "analytics": {
+        "track_engagement": true,
+        "save_logs": true,
+        "generate_reports": true
+    }
+}
